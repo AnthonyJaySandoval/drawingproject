@@ -49,7 +49,13 @@ canvas.fill();
 
 canvas.beginPath();
 canvas.fillStyle = "blue";
-canvas.moveTo(350,500);
-canvas.lineTo(520,130);
-canvas.lineTo(200,130);
+canvas.moveTo(920,125);
+canvas.lineTo(970,55);
+canvas.lineTo(830,55);
 canvas.fill();
+
+canvas.fillStyle = "#87CEEB";
+canvas.fillRect(850,225,100,225);
+
+canvas.fillStyle = "blue";
+canvas.fillRect(750,225,100,225);
